@@ -1,0 +1,60 @@
+body {
+  font-size: 18px; }
+  body h3,
+  body h2 {
+    margin: 0; }
+
+.widget-wrapper {
+  width: 546px;
+  margin: auto;
+  color: #f0f5f5; }
+  .widget-wrapper .head {
+    background: #5d6772;
+    height: 38px; }
+    .widget-wrapper .head h3 {
+      padding: 10px; }
+      .widget-wrapper .head h3 span {
+        float: right;
+        color: #f0f5f5; }
+  .widget-wrapper .body {
+    background: #384048;
+    height: 256px;
+    padding: 40px; }
+    .widget-wrapper .body .form-title {
+      margin-bottom: 40px; }
+    .widget-wrapper .body form {
+      display: flex;
+      flex-direction: row;
+      margin: auto; }
+      .widget-wrapper .body form .labels {
+        width: 190px;
+        height: 100%; }
+        .widget-wrapper .body form .labels label {
+          margin-top: 11px;
+          width: 100%;
+          display: block; }
+      .widget-wrapper .body form .inputs {
+        width: 290px;
+        height: 100%;
+        float: right; }
+        .widget-wrapper .body form .inputs input {
+          height: 17px;
+          margin-top: 10px;
+          width: 100%; }
+  .widget-wrapper .foot {
+    border-top: #222f3c;
+    background: #5d6772;
+    height: 71px;
+    position: relative; }
+    .widget-wrapper .foot button {
+      border: none;
+      color: #223346;
+      background: #53b8ea;
+      font-weight: bold;
+      width: 120px;
+      height: 31px;
+      position: absolute;
+      right: 17px;
+      bottom: 19px; }
+
+/*# sourceMappingURL=style.css.map */

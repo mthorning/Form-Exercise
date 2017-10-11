@@ -1,0 +1,84 @@
+@import 'base';
+
+body {
+	font-size: 18px;
+	h3,
+	h2 {
+		margin: 0;
+	}
+}
+
+.widget-wrapper {
+	width: 546px;
+	margin: auto;
+	color: $textColor;
+
+	.head {
+		background: $secondaryColor;
+		height: 38px;
+
+		h3 {
+			padding: 10px;
+
+			span {
+				float: right;
+				color: $textColor;
+			}	
+		}
+		
+	}
+	.body {
+		background: $primaryColor;
+		height: 256px;
+		padding: 40px;
+
+		.form-title {
+			margin-bottom: 40px;
+		}
+		form {
+			display: flex;
+			flex-direction: row;
+			margin: auto;
+
+			.labels {
+				width: 190px;
+				height: 100%;
+
+				label {
+					margin-top: 11px;
+					width: 100%;
+					display: block;
+				}
+			}
+			.inputs {
+				width: 290px;
+				height: 100%;
+				float: right;
+
+				input {
+					height: 17px;
+					margin-top: 10px;
+					width: 100%;
+				}
+			}
+		}
+	}
+	.foot {
+		border-top: $borderColor;
+		background: $secondaryColor;
+		height: 71px;
+		position: relative;
+
+		button {
+			border: none;
+			color: $buttonTextColor;
+			background: $buttonColor;
+			font-weight: bold;
+			width: 120px;
+			height: 31px;
+			position: absolute;
+			right: 17px;
+			bottom: 19px;
+		}
+	}
+}
